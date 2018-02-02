@@ -1,6 +1,0 @@
-#Find Disk to Write
-
-```sh
-$ sudo -i
-$ fdisk -l
-```
