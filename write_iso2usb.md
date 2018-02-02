@@ -33,7 +33,7 @@ if a particion is not mounted, the result will :
 $umount /dev/sdb2
 umount: /dev/sdb2: not mounted
 ```
-#Now Write! 
+# Now Write! 
 ```sh
 dd bs=4M if=/WHERE_ISO_LOCATED/NAME_OF_ISO.iso of=/dev/sdb
 ```
