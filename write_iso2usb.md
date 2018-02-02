@@ -44,4 +44,5 @@ The result will be:
 4704262144 bytes (4.7 GB) copied, 400.12 s, 11.8 MB/s
 ```
 
-
+# Reference 
+https://www.linux.com/blog/how-burn-iso-usb-drive
