@@ -35,7 +35,7 @@ umount: /dev/sdb2: not mounted
 ```
 # Now Write! 
 ```sh
-dd bs=4M if=/WHERE_ISO_LOCATED/NAME_OF_ISO.iso of=/dev/sdb
+$dd bs=4M if=/WHERE_ISO_LOCATED/NAME_OF_ISO.iso of=/dev/sdb
 ```
 The result will be:
 ```sh
