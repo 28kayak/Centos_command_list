@@ -37,7 +37,7 @@ subl test.txt
 
 
 # Reference
-## for installation 
+## For installation 
 https://www.sublimetext.com/docs/3/linux_repositories.html
 https://askubuntu.com/questions/273034/lauching-sublime-text-from-command-line
 
