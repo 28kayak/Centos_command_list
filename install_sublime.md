@@ -39,6 +39,7 @@ subl test.txt
 # Reference
 ## For installation 
 https://www.sublimetext.com/docs/3/linux_repositories.html
+
 https://askubuntu.com/questions/273034/lauching-sublime-text-from-command-line
 
 ## About GPG key 
