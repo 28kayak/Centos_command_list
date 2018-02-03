@@ -1,4 +1,4 @@
-# install sublime text from a terminal 
+# Install sublime text from a terminal 
 
 ## Install the GPG key: 
 ```sh
@@ -18,10 +18,20 @@ sudo yum-config-manager --add-repo https://download.sublimetext.com/rpm/stable/x
 sudo yum-config-manager --add-repo https://download.sublimetext.com/rpm/dev/x86_64/sublime-text.repo
 ```
 ## Update yum and install sublime-text 
+Run the following command:
 ```sh
 sudo yum install subime-text
 ```
 
+# Setup symbolic link (symlink) 
+Run the following command:
+```sh
+sudo ln -s /opt/sublime_text/sublime_text /usr/local/bin/subl
+```
+## Launch Sublime from terminal 
+```sh
+subl test.txt 
+```
 
 
 
