@@ -32,6 +32,7 @@ sudo ln -s /opt/sublime_text/sublime_text /usr/local/bin/subl
 ```sh
 subl test.txt 
 ```
+if test.txt does not exists, it will create for you.
 
 
 
