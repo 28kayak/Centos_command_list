@@ -125,10 +125,10 @@ Done installing documentation for bundler after 5 seconds
 Assume you already have a github account 
 ```sh
 git clone url/to/the/project
-Cloning into 'fastball_htg'...
+Cloning into 'project_name'...
 ...
 Resolving deltas: 100% (12063/12063), done.
-cd fastball_htg
+cd project_name
 bundle exec ruby -v 
 ruby 2.4.2p198 (2017-09-14 revision 59899) [x86_64-darwin16]
 ```
