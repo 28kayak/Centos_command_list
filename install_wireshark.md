@@ -71,6 +71,9 @@ wireshark
 ![wireshark](https://github.com/28kayak/Centos_command_list/blob/master/img/screenshot_wireshark.png)
 
 
+9.  Chnge permission 
+![permission_denied](https://github.com/28kayak/Centos_command_list/blob/master/img/error.png)
+
 
 
 
