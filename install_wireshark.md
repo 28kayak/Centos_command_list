@@ -74,7 +74,7 @@ wireshark
 9.  Change permission  
 Clicking `random packet generator`get the following error message.  
    
-![permission_denied](https://github.com/28kayak/Centos_command_list/blob/master/img/error.png)
+![permission_denied](https://github.com/28kayak/Centos_command_list/blob/master/img/error.png)  
 So, need to change the permission for this directry 
 
 
