@@ -75,7 +75,26 @@ wireshark
 Clicking `random packet generator`get the following error message.  
    
 ![permission_denied](https://github.com/28kayak/Centos_command_list/blob/master/img/error.png)  
-So, need to change the permission for this directry 
+So, need to change the permission for this directry   
+- check permission   
+```sh
+ls -l /usr/local/bin/dumpcap
+-rwxr-x---. 1 root wireshark 342336 Apr  5 00:35 /usr/local/bin/dumpcap
+```
+- As it shows, we do not have a permission to read and execute as others. 
+- we will let others read and execute 
+```sh
+sudo chmod 755 /usr/local/bin/dumpcap
+ls /usr/local/bin/dumpcap
+
+-rwxr-xr-x. 1 root wireshark 342336 Apr  5 00:35 /usr/local/bin/dumpcap
+```
+
+![success](https://github.com/28kayak/Centos_command_list/blob/master/img/success.png)  
+
+
+
+
 
 
 
