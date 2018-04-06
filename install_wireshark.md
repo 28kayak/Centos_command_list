@@ -91,6 +91,7 @@ ls /usr/local/bin/dumpcap
 ```
 
 ![success](https://github.com/28kayak/Centos_command_list/blob/master/img/success.png)  
+it worked!!
 
 
 
@@ -109,3 +110,4 @@ ls /usr/local/bin/dumpcap
 -  [工作者（kousakusya）のブログ](https://ameblo.jp/kousakusya/entry-12341271788.html)
 -  [libnghttp2-devel-1.21.1-1.el7.x86_64.rpm](https://centos.pkgs.org/7/epel-x86_64/libnghttp2-devel-1.21.1-1.el7.x86_64.rpm.html)  
 -  [snappy-devel-1.1.0-3.el7.x86_64.rpm](https://centos.pkgs.org/7/centos-x86_64/snappy-devel-1.1.0-3.el7.x86_64.rpm.html)
+-  [A Unix and Linux Permissions Orimer](https://danielmiessler.com/study/unixlinux_permissions/)
