@@ -1,1 +1,83 @@
-ddd
+
+ 1
+ 1003  tar xzf solr-7.4.0-src.tgz 
+ 1004  ls -h
+ 1005  gunzip solr-7.4.0-src.tgz 
+ 1006  ls
+ 1007  cd ..
+ 1008  cd 
+ 1009  ls
+ 1010  cd Downloads/
+ 1011  ls
+ 1012  mv solr-7.4.0-src.tgz ~
+ 1013  cd 
+ 1014  ls
+ 1015  tar -tzf solr-7.4.0-src.tgz 
+ 1016  tar -xzf solr-7.4.0-src.tgz 
+ 1017  ls
+ 1018  solr-7.4.0/
+ 1019  cd solr-7.4.0/
+ 1020  ls
+ 1021  cd ..
+ 1022  ls
+ 1023  rm -rf solr-7.4.0
+ 1024  ls
+ 1025  cd Downloads/
+ 1026  ls
+ 1027  mv solr-7.4.0.tgz ~
+ 1028  ls
+ 1029  cd 
+ 1030  ls
+ 1031  tar tzf solr-7.4.0
+ 1032  tar tzf solr-7.4.0.tgz 
+ 1033  tar xzf solr-7.4.0.tgz 
+ 1034  ls
+ 1035  cd solr-7.4.0/
+ 1036  ls
+ 1037  solr-6.3.0/bin/install_solr_service.sh --strip-components=2
+ 1038  solr-7.4.0/bin/install_solr_service.sh --strip-components=2
+ 1039  cd bin/
+ 1040  ls
+ 1041  solr-7.4.0/bin/install_solr_service.sh --strip-components=2
+ 1042  ./install_solr_service.sh --strip-components=2
+ 1043  sudo bash ./install_solr_service.sh 
+ 1044  sudo bash ./install_solr_service.sh solr-7.4.0.tgz
+ 1045  sudo bash ./install_solr_service.sh ~/solr-7.4.0.tgz
+ 1046  sudo service solr start
+ 1047  kill 14955
+ 1048  ps -ax | 14955
+ 1049  ps -ax
+ 1050  sudo service solr 
+ 1051  ls
+ 1052  cd ..
+ 1053  ls
+ 1054  sudo solr stop
+ 1055  sudo service solr start
+ 1056  sudo service solr stop
+ 1057  sudo service solr start
+ 1058  sudo service solr stop
+ 1059  ./bin/solr start -e cloud
+ 1060  ls
+ 1061  cd bin 
+ 1062  ls
+ 1063  cd ..
+ 1064  bin/post -c techproducts example/exampledocs/*
+ 1065  history
+ 1066  cd bin/
+ 1067  ls
+ 1068  solr stop service
+ 1069  sudo service solr stop
+ 1070  solr create -c films -s 2 -rf 2
+ 1071  cd ..
+ 1072  bin/solr create -c films -s 2 -rf 2
+ 1073  sudo service solr start
+ 1074  bin/solr create -c films -s 2 -rf 2
+ 1075  sudo service solr stop
+ 1076  bin/solr start -c -p 8983 -s example/cloud/node1/solr
+ 1077  bin/solr start -c -p 7574 -s example/cloud/node2/solr -z localhost::9983
+ 1078  bin/solr start -c -p 7575 -s example/cloud/node2/solr -z localhost::9983
+ 1079* bin/solr create -c films 
+ 1080  sudo service solr stop
+ 1081  bin/solr create -c films 
+ 1082  bin/solr start -e cloud
+
