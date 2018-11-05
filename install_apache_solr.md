@@ -1,10 +1,14 @@
 # Install Apache Solr 7.4.0 to Linux (Centos 7)
+Apache SolrをCentos7にインストールします。
+検証日 2018, 8, 21 現在の動作を確認しています。
+
 Date Installed:  08,21,2018 
 
+
 # Pre-requirements 
- - A server running CentOS 7. 
- - A non-root user with sudo privilege setup on your server
- - Installed Java
+ - A server running CentOS 7. (CentOS 7がOSであること)
+ - A non-root user with sudo privilege setup on your server　（sudo権限のあるユーザーであること）
+ - Installed Java　（javaがインストール済みであること）
 
 # Updating yum and Installing Java 
 Before installing Apache Solr, we need to update yum.
