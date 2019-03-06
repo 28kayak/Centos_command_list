@@ -22,7 +22,7 @@ curl -X DELETE  http://localhost:8345/mcf-api-service/json/outputconnections/
 ##Repository Connector
 ```sh
 ##create an repository connector
-curl -X PUT -H "Content-Type: application/json" http://localhost:8345/mcf-api-service/json/repositoryconnections/ -d  "{\"repositoryconnection\": {\"description\":\"DMI_conn\", \"class_name\":\"Web\"} }"
+curl -X PUT -H "Content-Type: application/json" http://localhost:8345/mcf-api-service/json/repositoryconnections/ -d  "{\"repositoryconnection\": {\"description\":\"xxx_conn\", \"class_name\":\"Web\"} }"
 
 ## get list of repository connector 
 curl -X GET  http://localhost:8345/mcf-api-service/json/repositoryconnections
@@ -34,7 +34,7 @@ curl -X GET  http://localhost:8345/mcf-api-service/json/repositoryconnections
 curl -X POST -H "Content-Type: application/json" http://localhost:8345/mcf-api-service/json/jobs/ -d  "{\"repositoryconnection\": 
 	{\"description\":\"job\", 
 	 \"repository_connection\":\"Web\",
-	 \"id\":\"dmi1\",
+	 \"id\":\"xxx1\",
 
 
 	} 
