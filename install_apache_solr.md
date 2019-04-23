@@ -69,6 +69,21 @@ So, access to the following URL.
 
 ![Solr Admin](https://github.com/28kayak/Centos_command_list/blob/master/img/Screenshot_Solr_Admin.png)  
 
+# Rename Code Name 
+In order to rename a core name, you are going to access the following URL 
+```sh
+http://localhost:8983/solr/admin/cores?action=RENAME&core=oldname&other=newname
+```
+If success, you will get the following response.
+```sh
+{
+  "responseHeader":{
+    "status":0,
+    "QTime":80}
+}
+``
+
+
 
 # Reference 
 - [Apache Solr Ref Guide](http://ftp.meisei-u.ac.jp/mirror/apache/dist/lucene/solr/ref-guide/apache-solr-ref-guide-7.4.pdf)
