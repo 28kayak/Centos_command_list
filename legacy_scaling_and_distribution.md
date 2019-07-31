@@ -3,16 +3,32 @@
 
 
 # Directory Structure  
-master-core
+## master-core
 ```bash
+master-core
+├── conf/
+│   ├── lang/
+│   │   ├── stoptags_ja.txt
+│   ├── managed-schema
+│   ├── solrconfig.xml 
+│   ├── synonyms.txt 
+│   └── params.json
+├── data/
+├── solr.xml
+└── core.properites
+```
+
+## slave-core
+```bash
+slave-core
 ├── conf/
 │   ├── lang/
 │   │   ├── stoptags_ja.txt
 │   ├── managed-schema
 │   ├── solrconfig.xml 
 │   ├── synonyms.txt
-│   ├── solrconfig.xml 
-│   └── partials/template
+│   ├── synonyms.txt
+│   └── params.json
 ├── data/
 ├── solr.xml
 └── core.properites
