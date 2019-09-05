@@ -4,6 +4,7 @@
 ```sh
 # this is OpenJDK 11 
 wget https://download.java.net/openjdk/jdk11/ri/openjdk-11+28_linux-x64_bin.tar.gz
+tar xfz openjdk-11+28_linux-x64_bin.tar.gz 
 ```
 
 2. Set JAVA_HOME and PATH 
@@ -25,8 +26,7 @@ javac 11
 
 
 # Archived OpenJDK
-# JAVA7
-
+# Java 7
 * OpenJdk 7 (GNU LICENSE)
 ```sh 
 https://download.java.net/openjdk/jdk7u75/ri/openjdk-7u75-b13-linux-x64-18_dec_2014.tar.gz
@@ -36,3 +36,5 @@ https://download.java.net/openjdk/jdk7u75/ri/openjdk-7u75-b13-linux-x64-18_dec_2
 ```sh 
 https://download.java.net/openjdk/jdk7u75/ri/jdk_ri-7u75-b13-linux-x64-18_dec_2014.tar.gz
 ```
+
+# Java 8
