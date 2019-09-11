@@ -47,5 +47,5 @@ https://download.java.net/openjdk/jdk7u75/ri/jdk_ri-7u75-b13-linux-x64-18_dec_20
 
 # Java 8
 ```sh
-http://jdk.java.net/java-se-ri/8
+https://download.java.net/openjdk/jdk8u40/ri/jdk_ri-8u40-b25-linux-x64-10_feb_2015.tar.gz
 ```
