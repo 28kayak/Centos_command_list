@@ -33,6 +33,9 @@ https://openjdk.java.net/install/
 
 #download prior to java 8
 http://jdk.java.net/java-se-ri/8
+
+#download adopt OpenJDK8
+https://adoptopenjdk.net/archive.html
 ```
 # Java 7
 * OpenJdk 7 (GNU LICENSE)
